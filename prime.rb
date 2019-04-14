@@ -12,6 +12,6 @@ def prime?(int)
   n += 1
   break if n == int
 end
-return true
 end
+return true
 end
