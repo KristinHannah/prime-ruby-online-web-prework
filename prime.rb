@@ -6,7 +6,7 @@ def prime?(int)
   else 
   end
   n = 2
-  until n == int - 1 
+  while n < int
   if int % n == 0
     return false
   n += 1
