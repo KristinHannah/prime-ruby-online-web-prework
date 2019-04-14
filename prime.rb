@@ -9,9 +9,9 @@ def prime?(int)
   while n < int
   if int % n == 0
     return false
+  end
   n += 1
   break if n == int
-end
 end
 return true
 end
